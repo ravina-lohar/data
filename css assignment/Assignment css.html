@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family:  'Comic Neue', cursive;;
+        }
+        h1,h2{
+            text-align: center;
+            margin: 8px;
+        }
+        h1{
+            font-size: 37px;
+        }
+        h2{
+            font-size: 28px;
+        }
+        h3{
+            margin-top: 41px;
+            margin-left: 48px;
+            font-size: 25px;
+        }
+        ul {
+            list-style:disc;
+            margin-left: 65px;
+            padding: 1px;
+            font-size: 19px;
+        }
+        ul li{
+            margin-left: 23px;
+        }
+        th{
+           border: 0;
+           padding: 12px;
+           background-color: rgba(0, 0, 0, 0.688);
+           color: white;
+        }
+        tbody>tr:nth-child(odd){
+            background-color: rgba(167, 224, 237, 0.433); 
+        }
+        tbody>tr:nth-child(even){
+            background-color:  rgba(104, 212, 236, 0.433); 
+        }
+        table{
+            
+            width: px;
+            margin-left: 111px;
+            border-radius: 5px;
+            font-size: 19px;
+            margin-top: -24px;
+        }
+       table,th,td,tr{
+        padding: 25px;
+        border-radius: 18px;
+       }
+      
+       .box-1{
+        color: rgb(0, 0, 0);
+        width: 1200px;
+        background-color: rgb(231 215 215 / 40%);
+        margin-left: 47px;
+        margin-top: 25px;
+        border-radius: 10px;
+        box-shadow: gray 5px 5px 10px;
+        font-size: 20px;
+        padding: 30px;
+        
+       }
+       .T-2{
+        margin-left: 109px;
+       }
+       .grid{
+        display: flex;
+        margin-left: 131px;
+        margin-bottom: 100px;
+       }
+       .card img{
+        width: 350px;
+        height: 250px;
+       }
+       .card{
+        width: 350px;
+        box-shadow: 4px 4px 10px gray;
+        height: 550px;
+       }
+       .card-header{
+        margin-right: 216px;
+       }
+       .kedarnath{
+        margin-right: 189px;
+       }
+       .card-btn{
+        width: 92%;
+        padding: 0.5rem;
+        font-size: 25px;
+        text-align: center;
+        color: #3363ff;
+        background-color: #D8E0FD;
+        border: none;
+        border-radius: 0.4rem;
+        transition: 0.2s;
+        cursor: pointer;
+        letter-spacing: 0.1rem;
+        position: relative;
+        left: 15px;
+        top: 16px;
+       }
+       .grid-item{
+        padding: 0px 30px;
+       }
+       .card-text{
+        margin-left: 22px;
+        margin-right: 15px;
+       }
+       .row{
+        display: flex;
+        margin-left: 51px;
+        margin-top: 40px;
+       }
+    
+       
+       
+       
+       
+      
+       
+    </style>
+</head>
+<body>
+    <h1>ASSIGNMENT</h1>
+    <h2><u>Module (CSS and CSS 3) -2</u></h2>
+    <h3>1. What are the benefits of using CSS? </h3>
+    <ul>
+        <li>Easier to maintain and update</li>
+        <li>Greater consistency in design</li>
+        <li>More formatting options</li>
+        <li>Lightweight code</li>
+        <li>Faster download times</li>
+        <li>Search engine optimization benefits</li>
+        <li>Ease of presenting different styles to different viewers</li>
+        <li>Greater accessibility</li>
+    </ul>
+    <h3>2. What are the disadvantages of CSS?</h3>
+    <ul>
+        <li>CSS, CSS 1 up to CSS3, result in creating of confusion among web browsers.</li>
+           <li> With CSS, what works with one browser might not always work with another. ...</li>
+           <li> There exists a scarcity of security.</li>
+           <li> After making the changes we need to confirm the compatibility if they appear.</li>
+    </ul>
+    <h3>3. What is the difference between CSS2 and CSS3?</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>Features</th>
+            <th>CSS</th>
+            <th>CSS3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Compatibility</td>
+            <td>The primary purpose of CSS was to focus<br> on formatting features. They have<br> capabilities for positioning texts and <br> objects. <br>
+                CSS is backward compatible with CSS3.</td>
+                <td>When CSS3 code is written in CSS, it is invalid. CSS3 <br> makes the Web Pages more attractive. It takes less <br> time to create a page.</td>
+        </tr>
+        <tr>
+            <td>Design</td>
+            <td>CSS does not support responsive design.</td>
+            <td>CSS3 is the latest version and supports the <br> responsive design.</td>
+        </tr>
+        <tr>
+            <td>Modules</td>
+            <td>CSS is not divided into modules.</td>
+            <td>CSS3 could split into modules.</td>
+        </tr>
+        <tr><td>Animation</td>
+            <td>CSS cannot produce 3D animation and<br> transformation.</td>
+            <td>In CSS3, the animation and 3D transformations are<br> used. Elements are moved across the screen with the<br> assistance of JavaScript and flash. By using the<br> elements, also be ready to change the size and color.<br> All kinds of <b>transformations </b>and <b>animations</b> are<br> performed by using CSS3.</td>
+        </tr>
+        <tr>
+            <td>Rounded<br> corners and<br> gradient</td>
+            <td>When CSS3 was launched, the developers<br> designed some images that looked like the<br> rounded corners with the <b>structures</b> and<br> <b>backgrounds</b>. Developers are designing a<br> border and uploading the design to the<br> server.</td>
+            <td>In CSS3 the developer writes the code like:<br>
+                round border {border-radius: 20px}.<br>
+                They have not been sent by any server and perform<br> any other activities. Gradients will also be set by<br> using the code which is given below:<br>
+                gradBG {Background:linear-gradient(red,black);}</td>
+        </tr>`
+        <tr>
+            <td>Text Effects and<br> Text<br> Animations</td>
+            <td>In CSS, animations are written in <b>JavaScript</b><br> and <b>JQuery</b>. It has not to design layer<br> features and page elements. It had no<br> special effects such as <b>shadowing text</b><br>, <b>text animation</b>, etc.</td>
+            <td>In CSS3, the developer adds <b>text-shadows</b> to make<br> it easy and effective. They add words for the visual<br> effects of the break line and a comfortable fit inside<br> the column. It changes the size and color of the text.</td>
+        </tr>
+        <tr>
+            <td>Capacity</td>
+            <td>CSS is slower.</td>
+            <td>CSS3 is faster than CSS.</td>
+        </tr>
+        <tr>
+            <td>Color</td>
+            <td>CSS provides unique color schemas and<br> standard color.</td>
+            <td>CSS3 supports <b>HSL RGBA, HSLA</b> and the gradient<br> colors.</td>
+        </tr>
+        <tr>
+            <td>Blocks</td>
+            <td>Multi-column text blocks are defined in<br> <b>CSS3.</b></td>
+            <td>CSS supports single text blocks.</td>
+        </tr>
+        <tr>
+            <td>Lists</td>
+            <td>CSS allows a user to:<br>
+                1. It set different lists for ordered lists<br>
+                2. CSS set an image for a list<br> item marker<br>
+                3. CSS add background colors to the<br> list and list items.
+                Some list item markers are: <b>list-style-type</b><br>. These can be set <b>circle, square</b>, etc.</td>
+                <td>In CSS3, The list item has a counter and affected by'<br> counter increment and counter reset properties.<br>
+                    In CSS if we use list in <b>CSS3</b> the <b>'display'</b> property<br> must have a list defined in it.<br>
+                    CSS3 cannot support a numbering system.<br>
+                    The list style image property enables an image is set<br> against the style type marker.<br>
+                    It will set as inside the box or outside the box.</td>
+        </tr>
+    </tbody>
+    </table>
+    <h3>4. Name a few CSS style components</h3>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <b><u> The components of css style are:</u></b>
+    <ul>
+<li>Selecter:HTML element name, id name, class name.</li>
+<li>Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.</li>
+<li>Values:which defines property or values allocate for properties.</li>
+</ul>
+<h3>5. What do you understand by CSS opacity? </h3>
+<ul>The opacity CSS property sets the opacity of an element. Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+    
+</ul>
+<h3>6. How can the background color of an element be changed?</h3>
+<ul>
+ <div style="background-color: rgb(237 148 211 / 29%); ">
+    <li>The <b>background-color</b> property in CSS is used to set the background color of an element. It applies solid colors as the element's background. The background of an element covers the total size, including the padding and border, but excluding margin. It can be applied to all HTML elements.</li>
+ </div>
+</ul>
+ <h3>7. How can image repetition of the backup be controlled? </h3>
+ <ul>
+    <li>To control the repetition of an image in the background, use the background-repeat property. You can use no-repeat value for the background-repeat property if you do not want to repeat an image, in this case, the image will display only once.</li>
+</ul>
+<h3>8. What is the use of the background-position property? </h3>
+<ul>
+    <li>The background-position property sets the starting position of a background image. Tip: By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.</li>
+</ul>
+<h3>9. Which property controls the image scroll in the background? </h3>
+<ul>
+<li><b><u>background-attachment property:</u></b> </li>
+    <li> background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.</li>
+</ul>
+<h3>10. Why should background and color be used as separate properties?</h3>
+<ul>
+    <li><b><u> There are two reasons behind this:</u></b></li><br>
+     <li><b>It enhances the legibility of style sheets.</b> The background property is a complex property in CSS,</li> 
+     <li> if it is combined with color, the complexity will further increase.</li>
+</ul>
+<h3>11. How to center block elements using CSS1?</h3>
+<ul>
+    <li>In order to center the block-level elements, we need to set the margin-right and margin-left properties to explicit values.
+    </li>
+</ul>
+<h3>12. How to maintain the CSS specifications?</h3>
+<ul>
+    <li>css properties should be implemented using detailed algorithms and code samples, as well as tabular data, as part of a browser vendor’s implementation of the Specification. The language is also known as a syntax and data type in the Specification. A detailed explanation of CSS Selectors can be found here.</li>
+        <li> Specification defines how CSS properties should be implemented by browser vendors along with detailed algorithms, code samples and tabular information.</li><br>
+        
+        <li><b> The Specification also include:</b></li>
+        <dd>
+            <li> and data types of the language</li>
+            <li> explanation on CSS Selectors</li>
+            <li>How you can assign values to properties</li> 
+            <li>The Cascade (the "C" in CSS)</li>
+            <li>How inheritance works</li>
+            <li>The Box Model e.t.c</li>
+        </dd>
+</ul>
+<h3>13. What are the ways to integrate CSS as a web page?</h3>
+<ul>
+<li><b>CSS can be added to HTML documents in 3 ways: </b></li>
+  <ol type="1" >
+    <li>Inline - by using the style attribute inside HTML elements.</li>
+    <li>Internal - by using a &lt;style&gt; element in the head section.</li>
+    <li>External - by using a &lt;link&gt; element to link to an external CSS file.</li>
+ </ol>
+</ul>
+<h3>14. What is embedded style sheets?</h3>
+<ul>
+    <li><b>Embedded Stylesheet:</b><br> It allows you to define styles for a particular HTML document as a whole in one place. <br>This is done by embedding the &#60;style&#62;&#60;/style&#62; tags containing the CSS properties in the head of your document.</li>
+</ul>
+<h3>15. What are the external style sheets?</h3>
+<ul>
+    <li><b>External style sheets</b><br>
+        To apply a rule to multiple pages, an external style sheet is used.<br> external style sheet is a separate CSS file that can be accessed by creating a link within the head section of the webpage. Multiple webpages can use the same link to access the stylesheet.link to an external style sheet is placed within the head section of the page.
+        </li>
+        <div class="box-1" style="height: 160px;">
+            <pre>
+            &lt;head&gt;<br>
+            &lt;link rel="stylesheet" type="text/css" href="mystyle.css"&gt;<br>
+            &lt;/head&gt;
+            </pre>
+        </div>
+        <br>
+        <li>The actual style sheet file will contain CSS rules that are then applied across the entire page. For example:</li>
+        <div class="box-1" style="height: 198px;">
+            <pre>
+            body {
+                background-color: ghostwhite;
+         }
+        
+         h1 {
+               color: blue; font-size: 20px; font-family: verdana; font-style:italic;
+         }
+            </pre>
+        </div>
+</ul>
+<h3>16. What are the advantages and disadvantages of using external style sheets?</h3>
+<ul>
+    <li><b>The advantages of External Style Sheets are:</b></li><br>
+        <dd>
+        <li> Using them, the styles of multiple documents can be controlled from one file.</li>
+        <li> Classes can be created for use on multiple HTML element types in many documents.</li>
+        <li> In complex situations, selector and grouping methods can be used to apply styles.</li>
+        </dd>
+        <br>
+        <li><b>disadvantages of External Style Sheets are:</b></li><br>
+        <dd>
+        <li>In order to import style information for each document, an extra download is needed.</li>
+        <li>Until the external style sheet is loaded, it may not be possible to render the document.</li>
+        <li>For small number of style definitions, it is not viable.</li>
+        </dd>
+    
+</ul>
+<h3>17. What is the meaning of the CSS selector? </h3>
+<ul>
+    <li><b>CSS selectors</b> are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.</li><br>
+        <li><b> There are several different types of selectors in CSS.</b></li><br>
+        <ol type="1">
+        <li> Element Selector</li>
+        <li> Id Selector</li>
+        <li> Class Selector</li>
+        <li> Universal Selector</li>
+        <li> Group Selector</li>
+    </ol>
+</ul>
+<h3>18. What are the media types allowed by CSS?</h3>
+<ul>
+    <li>CSS media types allow you to format your documents to be presented correctly on various types of media such as screen, print, an aural browser, etc.</li>
+    <li>3 ways of specifying CSS Media types</li>
+    <div style="background-color: rgb(231 215 215 / 40%);;;width: 1200px; color:rgb(0, 0, 0); ;margin-left: 69px; border-radius: 9px;box-shadow: 5px 5px 10px grey;">
+        <pre>
+
+           1.Linked style sheets:
+
+            &#60;link rel="stylesheet" type="text/css" media="print" href="print.css">
+        </pre>
+    </div>
+    <div style="background-color: rgb(231 215 215 / 40%);;width: 1200px;color:rgb(0, 0, 0); ;margin-left: 69px; border-radius: 9px;box-shadow: 5px 5px 10px grey;">
+        <pre>
+
+           2.Imported style sheets:
+
+            &#60;style type="text/css" media="print, handheld">
+            @import "basic.css";
+            &#60;/style>
+        </pre>
+    </div>
+    <div style="background-color: rgb(231 215 215 / 40%);;width: 1200px;color:rgb(0, 0, 0); ;margin-left: 69px; border-radius: 9px;box-shadow: 5px 5px 10px grey;">
+        <pre>
+
+           3.Inline style sheets, through the @media rule:
+
+            &#60;style type="text/css">
+            @media projection{
+            body{ background-color:#FFFFFF; }
+            #heading{ font-size:28px; }
+            }
+            &#60;/style>
+        </pre>
+    </div>
+    <br>
+</ul>
+    <div class="T-2">
+    <table>
+        <caption><strong>CSS Media Types</strong></caption>
+        <thead>
+            <tr>
+            <th><strong>S.No.</strong></th>
+            <th><strong>Media Type</strong></th>
+            <th><strong>Description</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>all</td>
+                <td>Suitable/intended for all devises (default).</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>aural</td>
+                <td>Intended for speech synthesizers.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>braille</td>
+                <td>Intended for braille tactile feedback devices.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>embossed</td>
+                <td>Intended for paged braille printers.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>handheld</td>
+                <td>Intended for handheld devices (typically small screen, monochrome, limited bandwidth).</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>print</td>
+                <td>Intended for printed documents (applies to docs viewed in print preview mode too).</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>projection</td>
+                <td> Intended for projected presentations (ie: projectors or print to transparencies). </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>screen</td>
+                <td>Intended for computer screens.</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>tty</td>
+                <td> Intended for media using a fixed-pitch character grid (ie: teletypes or terminals). </td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>tv</td>
+                <td> Intended for television-type devices. </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <h3>19. What is the rule set?</h3>
+    <ul>
+        <li>A <b>rule set</b> is a collection of one or more rules that you can associate with a realm authorization, factor assignment, command rule, or secure application role. The rule set evaluates to true or false based on the evaluation of each rule it contains and the evaluation type (All True or Any True). A rule within a rule set is a PL/SQL expression that evaluates to true or false. You can create a rule and add the rule to multiple rule sets.<br></li>
+            <p><b>You can use rule sets to accomplish the following activities:</b></p>
+            <li>a further restriction to realm authorization, to define the conditions under which realm authorization is active<br></li>
+           <li> To define when to allow a command rule<br></li>
+           <li> To enable a secure application role<br></li> 
+           <li> To define when to assign the identity of a factor<br></li>
+              
+    </ul>
+    <h3>20. Create Layouts</h3>
+     <div class="grid">
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/Kedarnath Temple.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="kedarnath"> Kedarnath</h2>
+                    <p class="card-text">
+                        Kedarnath is a town in Rudraprayag district in the state of Uttarakhand in India and has gained importance because of the Kedarnath Temple. It is approximately 86 kilometres from Rudraprayag, the district headquarter. 
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Kedarnath_Temple"> <button class="card-btn"> Visit <span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/somnath.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="card-header">Somnath </h2>
+                    <p class="card-text">
+                        The Somnath temple is a Hindu temple located in Prabhas Patan, Veraval in Gujarat, India. It is one of the most sacred pilgrimage sites for Hindus and is believed to be first among the twelve jyotirlinga shrines of Shiva.
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Somnath_temple"> <button class="card-btn">Visit <span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/dwarkaimg.webp" alt="">
+                <div class="card-content">
+                    <h2 class="card-header"> Dwarka</h2>
+                    <p class="card-text">
+                        Dwarka is an ancient city in the northwestern Indian state of Gujarat.  The ancient Dwarkadhish Temple has an elaborately tiered main shrine, a carved entrance and a black-marble idol of Lord Krishna.
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Dwarka"> <button class="card-btn">Visit<span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="grid">
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/adiyogiimg.avif" alt="">
+                <div class="card-content">
+                    <h2 class="kedarnath">Adiyogi</h2>
+                    <p class="card-text">
+                        The Adiyogi statue is a 34-metre tall, 45-metre long and 25-metre wide steel statue of Shiva with Thirunamam at Coimbatore, Tamil Nadu. It is recognized by the Guinness World Records as the "Largest Bust Sculpture” in the world. Designed by Sadhguru Jaggi Vasudev, it weighs around 500 tonnes. 
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Adiyogi_Shiva_statue"> <button class="card-btn"> Visit <span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/goldentemple.webp" alt="">
+                <div class="card-content">
+                    <h2 class="card-header">&nbsp;Golden&nbsp;Temple</h2>
+                    <p class="card-text">
+                        The Golden Temple is a gurdwara located in the city of Amritsar, Punjab, India. It is the preeminent spiritual site of Sikhism. It is one of the holiest sites in Sikhism, alongside the Gurdwara Darbar Sahib Kartarpur in Kartarpur, and Gurdwara Janam Asthan in Nankana Sahib.
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Golden_Temple"> <button class="card-btn">Visit <span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="card">
+                <img src="../../css/css assignment/assimentimg/ranakpurtample.webp" alt="">
+                <div class="card-content">
+                    <h2 class="card-header">&nbsp;Ranakpur&nbsp;Jain&nbsp;Temple</h2>
+                    <p class="card-text">
+                        Ranakpur Jain temple or Chaturmukha Dharana Vihara is a Śvētāmbara Jain temple at Ranakpur dedicated to Tirthankara Rishabhanatha. The temple is located in a village of Ranakpur near Sadri town in the Pali district of Rajasthan. 
+                    </p>
+                   <a href="https://en.wikipedia.org/wiki/Ranakpur_Jain_temple"> <button class="card-btn">Visit<span>&rarr;</span></button></a>
+                </div>
+            </div>
+        </div>
+     </div>
+    
+</body>
+</html>
